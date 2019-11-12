@@ -1,0 +1,23 @@
+.header{
+    background-color: #393D49;
+}
+.layui-main{
+    height: 0;
+}
+.header .logo{
+    position: absolute;
+    left: 0;
+    line-height: 60px;
+}
+.header .logo img{
+    width: auto;
+    height: 45px;
+    opacity: 0.8;
+}
+.header .layui-nav{
+    position: absolute;
+    right: 0;
+}
+.header .layui-nav .layui-nav-item{
+    margin-left: 24px;
+}

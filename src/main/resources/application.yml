@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://yangs-itus.mysql.rds.aliyuncs.com:3306/redis-client?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: Wl110511
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+    cache: false
+    charset: UTF-8
+  redis:
+    host: yangs-itus.redis.rds.aliyuncs.com
+    password: "@noblind110511"
+    port: 6379

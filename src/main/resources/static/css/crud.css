@@ -1,0 +1,29 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.nav-left {
+    float: left;
+    width: 500px;
+    /*height: 800px;*/
+    padding: 6px;
+    border-right: 2px solid #cccccc;
+}
+
+.inner-left {
+    height: 100%;
+}
+
+.dbs .layui-card {
+    margin-bottom: 0;
+}
+
+.dbs .layui-card-header {
+    font-weight: bold;
+}
+.dbs .list{
+    float: left;
+}
+.dbs .key-num{
+    float: right;
+}

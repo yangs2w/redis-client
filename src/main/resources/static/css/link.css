@@ -1,0 +1,58 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", Tahoma, Arial, sans-serif;
+    background-image: url("../image/backgroud.png");
+    background-size: 100%;
+}
+.container {
+    height: auto;
+}
+.content{
+    width: 650px;
+    height: auto;
+    background-color: #1e482d;
+    margin: 0 auto;
+    opacity: 0.85;
+    border-radius: 6px;
+}
+.welcome{
+    text-align: center;
+    line-height: 60px;
+    color: #FF5722;
+}
+.content .start{
+    text-align: center;
+    font-size: 16px;
+    color: #1E9FFF;
+}
+.layui-form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.layui-form-item .layui-form-label{
+    color: #f9f9f9;
+}
+#start.layui-btn-disabled{
+    color: #f70900;
+}
+.error{
+    height: 38px;
+    display: none;
+}
+.error-messgae{
+    color: #a94442;
+    border: 1px solid #ff9f99;
+    width: auto;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 12px;
+    border-radius: 6px;
+    background-color: #f2dede;
+}
+.error-messgae .close{
+    float: right;
+}
+.error-messgae .close:hover{
+    cursor: pointer;
+    color: #00631e;
+}
